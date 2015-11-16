@@ -2,12 +2,13 @@
 //  ViewController.m
 //  PopAnimation
 //
-//  Created by Vols on 14-7-25.
-//  Copyright (c) 2014年 Vols. All rights reserved.
+//  Created by Vols on 15/11/16.
+//  Copyright © 2015年 Vols. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "PopView.h"
+
 
 @interface ViewController ()
 
@@ -15,22 +16,21 @@
 
 @end
 
-
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-
-
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)showPopViewAction:(id)sender {
-    
+
+- (IBAction)clickAction:(id)sender {
     [self.view addSubview:self.popView];
     
     [_popView showPopView];
+    
 }
+
 
 
 #pragma mark - properties
@@ -42,8 +42,9 @@
     return _popView;
 }
 
-- (void)didReceiveMemoryWarning
-{
+
+
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

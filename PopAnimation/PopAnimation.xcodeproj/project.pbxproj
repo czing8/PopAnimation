@@ -7,190 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F13D05DB1982A967006CCFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D05DA1982A967006CCFF4 /* Foundation.framework */; };
-		F13D05DD1982A967006CCFF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D05DC1982A967006CCFF4 /* CoreGraphics.framework */; };
-		F13D05DF1982A967006CCFF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D05DE1982A967006CCFF4 /* UIKit.framework */; };
-		F13D05E51982A967006CCFF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13D05E31982A967006CCFF4 /* InfoPlist.strings */; };
-		F13D05E71982A967006CCFF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D05E61982A967006CCFF4 /* main.m */; };
-		F13D05EB1982A967006CCFF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D05EA1982A967006CCFF4 /* AppDelegate.m */; };
-		F13D05EE1982A967006CCFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13D05EC1982A967006CCFF4 /* Main.storyboard */; };
-		F13D05F11982A967006CCFF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D05F01982A967006CCFF4 /* ViewController.m */; };
-		F13D05F31982A967006CCFF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13D05F21982A967006CCFF4 /* Images.xcassets */; };
-		F13D05FA1982A967006CCFF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D05F91982A967006CCFF4 /* XCTest.framework */; };
-		F13D05FB1982A967006CCFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D05DA1982A967006CCFF4 /* Foundation.framework */; };
-		F13D05FC1982A967006CCFF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D05DE1982A967006CCFF4 /* UIKit.framework */; };
-		F13D06041982A967006CCFF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13D06021982A967006CCFF4 /* InfoPlist.strings */; };
-		F13D06061982A967006CCFF4 /* PopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D06051982A967006CCFF4 /* PopAnimationTests.m */; };
-		F13D06121982A9EE006CCFF4 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D06111982A9EE006CCFF4 /* PopView.m */; };
-		F13D06171982ADEC006CCFF4 /* UIImage+ResizeMagick.m in Sources */ = {isa = PBXBuildFile; fileRef = F13D06161982ADEC006CCFF4 /* UIImage+ResizeMagick.m */; };
-		F13D06191982AFA3006CCFF4 /* finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13D06181982AFA3006CCFF4 /* finish@2x.png */; };
+		F186ACF81BF9BBF600C119DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F186ACF71BF9BBF600C119DD /* main.m */; };
+		F186ACFB1BF9BBF600C119DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F186ACFA1BF9BBF600C119DD /* AppDelegate.m */; };
+		F186ACFE1BF9BBF600C119DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F186ACFD1BF9BBF600C119DD /* ViewController.m */; };
+		F186AD011BF9BBF600C119DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F186ACFF1BF9BBF600C119DD /* Main.storyboard */; };
+		F186AD031BF9BBF600C119DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F186AD021BF9BBF600C119DD /* Assets.xcassets */; };
+		F186AD061BF9BBF600C119DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F186AD041BF9BBF600C119DD /* LaunchScreen.storyboard */; };
+		F186AD101BF9BCD300C119DD /* UIImage+ResizeMagick.m in Sources */ = {isa = PBXBuildFile; fileRef = F186AD0F1BF9BCD300C119DD /* UIImage+ResizeMagick.m */; };
+		F186AD141BF9BCDE00C119DD /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F186AD131BF9BCDE00C119DD /* PopView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F13D05FD1982A967006CCFF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F13D05CF1982A967006CCFF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F13D05D61982A967006CCFF4;
-			remoteInfo = PopAnimation;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F13D05D71982A967006CCFF4 /* PopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F13D05DA1982A967006CCFF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F13D05DC1982A967006CCFF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F13D05DE1982A967006CCFF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F13D05E21982A967006CCFF4 /* PopAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopAnimation-Info.plist"; sourceTree = "<group>"; };
-		F13D05E41982A967006CCFF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F13D05E61982A967006CCFF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F13D05E81982A967006CCFF4 /* PopAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		F13D05E91982A967006CCFF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F13D05EA1982A967006CCFF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F13D05ED1982A967006CCFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F13D05EF1982A967006CCFF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F13D05F01982A967006CCFF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F13D05F21982A967006CCFF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F13D05F81982A967006CCFF4 /* PopAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F13D05F91982A967006CCFF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F13D06011982A967006CCFF4 /* PopAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopAnimationTests-Info.plist"; sourceTree = "<group>"; };
-		F13D06031982A967006CCFF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F13D06051982A967006CCFF4 /* PopAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationTests.m; sourceTree = "<group>"; };
-		F13D06101982A9EE006CCFF4 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
-		F13D06111982A9EE006CCFF4 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
-		F13D06151982ADEC006CCFF4 /* UIImage+ResizeMagick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeMagick.h"; sourceTree = "<group>"; };
-		F13D06161982ADEC006CCFF4 /* UIImage+ResizeMagick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeMagick.m"; sourceTree = "<group>"; };
-		F13D06181982AFA3006CCFF4 /* finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish@2x.png"; sourceTree = "<group>"; };
+		F186ACF31BF9BBF600C119DD /* PopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F186ACF71BF9BBF600C119DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F186ACF91BF9BBF600C119DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F186ACFA1BF9BBF600C119DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F186ACFC1BF9BBF600C119DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F186ACFD1BF9BBF600C119DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F186AD001BF9BBF600C119DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F186AD021BF9BBF600C119DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F186AD051BF9BBF600C119DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F186AD071BF9BBF600C119DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F186AD0E1BF9BCD300C119DD /* UIImage+ResizeMagick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeMagick.h"; sourceTree = "<group>"; };
+		F186AD0F1BF9BCD300C119DD /* UIImage+ResizeMagick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeMagick.m"; sourceTree = "<group>"; };
+		F186AD121BF9BCDE00C119DD /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		F186AD131BF9BCDE00C119DD /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F13D05D41982A967006CCFF4 /* Frameworks */ = {
+		F186ACF01BF9BBF600C119DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13D05DD1982A967006CCFF4 /* CoreGraphics.framework in Frameworks */,
-				F13D05DF1982A967006CCFF4 /* UIKit.framework in Frameworks */,
-				F13D05DB1982A967006CCFF4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F13D05F51982A967006CCFF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F13D05FA1982A967006CCFF4 /* XCTest.framework in Frameworks */,
-				F13D05FC1982A967006CCFF4 /* UIKit.framework in Frameworks */,
-				F13D05FB1982A967006CCFF4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F13D05CE1982A967006CCFF4 = {
+		F186ACEA1BF9BBF600C119DD = {
 			isa = PBXGroup;
 			children = (
-				F13D05E01982A967006CCFF4 /* PopAnimation */,
-				F13D05FF1982A967006CCFF4 /* PopAnimationTests */,
-				F13D05D91982A967006CCFF4 /* Frameworks */,
-				F13D05D81982A967006CCFF4 /* Products */,
+				F186ACF51BF9BBF600C119DD /* PopAnimation */,
+				F186ACF41BF9BBF600C119DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F13D05D81982A967006CCFF4 /* Products */ = {
+		F186ACF41BF9BBF600C119DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F13D05D71982A967006CCFF4 /* PopAnimation.app */,
-				F13D05F81982A967006CCFF4 /* PopAnimationTests.xctest */,
+				F186ACF31BF9BBF600C119DD /* PopAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F13D05D91982A967006CCFF4 /* Frameworks */ = {
+		F186ACF51BF9BBF600C119DD /* PopAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F13D05DA1982A967006CCFF4 /* Foundation.framework */,
-				F13D05DC1982A967006CCFF4 /* CoreGraphics.framework */,
-				F13D05DE1982A967006CCFF4 /* UIKit.framework */,
-				F13D05F91982A967006CCFF4 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F13D05E01982A967006CCFF4 /* PopAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				F13D06141982ADE5006CCFF4 /* UIImage-ResizeMagick */,
-				F13D060F1982A9E4006CCFF4 /* PopAnimationView */,
-				F13D05E91982A967006CCFF4 /* AppDelegate.h */,
-				F13D05EA1982A967006CCFF4 /* AppDelegate.m */,
-				F13D05EC1982A967006CCFF4 /* Main.storyboard */,
-				F13D05EF1982A967006CCFF4 /* ViewController.h */,
-				F13D05F01982A967006CCFF4 /* ViewController.m */,
-				F13D06181982AFA3006CCFF4 /* finish@2x.png */,
-				F13D05F21982A967006CCFF4 /* Images.xcassets */,
-				F13D05E11982A967006CCFF4 /* Supporting Files */,
+				F186AD0D1BF9BCD300C119DD /* UIImage-ResizeMagick */,
+				F186AD111BF9BCDD00C119DD /* PopAnimationView */,
+				F186ACF91BF9BBF600C119DD /* AppDelegate.h */,
+				F186ACFA1BF9BBF600C119DD /* AppDelegate.m */,
+				F186ACFC1BF9BBF600C119DD /* ViewController.h */,
+				F186ACFD1BF9BBF600C119DD /* ViewController.m */,
+				F186ACFF1BF9BBF600C119DD /* Main.storyboard */,
+				F186AD021BF9BBF600C119DD /* Assets.xcassets */,
+				F186AD041BF9BBF600C119DD /* LaunchScreen.storyboard */,
+				F186AD071BF9BBF600C119DD /* Info.plist */,
+				F186ACF61BF9BBF600C119DD /* Supporting Files */,
 			);
 			path = PopAnimation;
 			sourceTree = "<group>";
 		};
-		F13D05E11982A967006CCFF4 /* Supporting Files */ = {
+		F186ACF61BF9BBF600C119DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F13D05E21982A967006CCFF4 /* PopAnimation-Info.plist */,
-				F13D05E31982A967006CCFF4 /* InfoPlist.strings */,
-				F13D05E61982A967006CCFF4 /* main.m */,
-				F13D05E81982A967006CCFF4 /* PopAnimation-Prefix.pch */,
+				F186ACF71BF9BBF600C119DD /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F13D05FF1982A967006CCFF4 /* PopAnimationTests */ = {
+		F186AD0D1BF9BCD300C119DD /* UIImage-ResizeMagick */ = {
 			isa = PBXGroup;
 			children = (
-				F13D06051982A967006CCFF4 /* PopAnimationTests.m */,
-				F13D06001982A967006CCFF4 /* Supporting Files */,
-			);
-			path = PopAnimationTests;
-			sourceTree = "<group>";
-		};
-		F13D06001982A967006CCFF4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F13D06011982A967006CCFF4 /* PopAnimationTests-Info.plist */,
-				F13D06021982A967006CCFF4 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F13D060F1982A9E4006CCFF4 /* PopAnimationView */ = {
-			isa = PBXGroup;
-			children = (
-				F13D06101982A9EE006CCFF4 /* PopView.h */,
-				F13D06111982A9EE006CCFF4 /* PopView.m */,
-			);
-			path = PopAnimationView;
-			sourceTree = "<group>";
-		};
-		F13D06141982ADE5006CCFF4 /* UIImage-ResizeMagick */ = {
-			isa = PBXGroup;
-			children = (
-				F13D06151982ADEC006CCFF4 /* UIImage+ResizeMagick.h */,
-				F13D06161982ADEC006CCFF4 /* UIImage+ResizeMagick.m */,
+				F186AD0E1BF9BCD300C119DD /* UIImage+ResizeMagick.h */,
+				F186AD0F1BF9BCD300C119DD /* UIImage+ResizeMagick.m */,
 			);
 			path = "UIImage-ResizeMagick";
+			sourceTree = "<group>";
+		};
+		F186AD111BF9BCDD00C119DD /* PopAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				F186AD121BF9BCDE00C119DD /* PopView.h */,
+				F186AD131BF9BCDE00C119DD /* PopView.m */,
+			);
+			path = PopAnimationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F13D05D61982A967006CCFF4 /* PopAnimation */ = {
+		F186ACF21BF9BBF600C119DD /* PopAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F13D06091982A967006CCFF4 /* Build configuration list for PBXNativeTarget "PopAnimation" */;
+			buildConfigurationList = F186AD0A1BF9BBF600C119DD /* Build configuration list for PBXNativeTarget "PopAnimation" */;
 			buildPhases = (
-				F13D05D31982A967006CCFF4 /* Sources */,
-				F13D05D41982A967006CCFF4 /* Frameworks */,
-				F13D05D51982A967006CCFF4 /* Resources */,
+				F186ACEF1BF9BBF600C119DD /* Sources */,
+				F186ACF01BF9BBF600C119DD /* Frameworks */,
+				F186ACF11BF9BBF600C119DD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -198,42 +122,24 @@
 			);
 			name = PopAnimation;
 			productName = PopAnimation;
-			productReference = F13D05D71982A967006CCFF4 /* PopAnimation.app */;
+			productReference = F186ACF31BF9BBF600C119DD /* PopAnimation.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F13D05F71982A967006CCFF4 /* PopAnimationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F13D060C1982A967006CCFF4 /* Build configuration list for PBXNativeTarget "PopAnimationTests" */;
-			buildPhases = (
-				F13D05F41982A967006CCFF4 /* Sources */,
-				F13D05F51982A967006CCFF4 /* Frameworks */,
-				F13D05F61982A967006CCFF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F13D05FE1982A967006CCFF4 /* PBXTargetDependency */,
-			);
-			name = PopAnimationTests;
-			productName = PopAnimationTests;
-			productReference = F13D05F81982A967006CCFF4 /* PopAnimationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F13D05CF1982A967006CCFF4 /* Project object */ = {
+		F186ACEB1BF9BBF600C119DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Vols;
 				TargetAttributes = {
-					F13D05F71982A967006CCFF4 = {
-						TestTargetID = F13D05D61982A967006CCFF4;
+					F186ACF21BF9BBF600C119DD = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = F13D05D21982A967006CCFF4 /* Build configuration list for PBXProject "PopAnimation" */;
+			buildConfigurationList = F186ACEE1BF9BBF600C119DD /* Build configuration list for PBXProject "PopAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,99 +147,65 @@
 				en,
 				Base,
 			);
-			mainGroup = F13D05CE1982A967006CCFF4;
-			productRefGroup = F13D05D81982A967006CCFF4 /* Products */;
+			mainGroup = F186ACEA1BF9BBF600C119DD;
+			productRefGroup = F186ACF41BF9BBF600C119DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F13D05D61982A967006CCFF4 /* PopAnimation */,
-				F13D05F71982A967006CCFF4 /* PopAnimationTests */,
+				F186ACF21BF9BBF600C119DD /* PopAnimation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F13D05D51982A967006CCFF4 /* Resources */ = {
+		F186ACF11BF9BBF600C119DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13D05F31982A967006CCFF4 /* Images.xcassets in Resources */,
-				F13D05E51982A967006CCFF4 /* InfoPlist.strings in Resources */,
-				F13D05EE1982A967006CCFF4 /* Main.storyboard in Resources */,
-				F13D06191982AFA3006CCFF4 /* finish@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F13D05F61982A967006CCFF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F13D06041982A967006CCFF4 /* InfoPlist.strings in Resources */,
+				F186AD061BF9BBF600C119DD /* LaunchScreen.storyboard in Resources */,
+				F186AD031BF9BBF600C119DD /* Assets.xcassets in Resources */,
+				F186AD011BF9BBF600C119DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F13D05D31982A967006CCFF4 /* Sources */ = {
+		F186ACEF1BF9BBF600C119DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13D05F11982A967006CCFF4 /* ViewController.m in Sources */,
-				F13D06171982ADEC006CCFF4 /* UIImage+ResizeMagick.m in Sources */,
-				F13D05EB1982A967006CCFF4 /* AppDelegate.m in Sources */,
-				F13D06121982A9EE006CCFF4 /* PopView.m in Sources */,
-				F13D05E71982A967006CCFF4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F13D05F41982A967006CCFF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F13D06061982A967006CCFF4 /* PopAnimationTests.m in Sources */,
+				F186ACFE1BF9BBF600C119DD /* ViewController.m in Sources */,
+				F186ACFB1BF9BBF600C119DD /* AppDelegate.m in Sources */,
+				F186ACF81BF9BBF600C119DD /* main.m in Sources */,
+				F186AD101BF9BCD300C119DD /* UIImage+ResizeMagick.m in Sources */,
+				F186AD141BF9BCDE00C119DD /* PopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F13D05FE1982A967006CCFF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F13D05D61982A967006CCFF4 /* PopAnimation */;
-			targetProxy = F13D05FD1982A967006CCFF4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F13D05E31982A967006CCFF4 /* InfoPlist.strings */ = {
+		F186ACFF1BF9BBF600C119DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F13D05E41982A967006CCFF4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F13D05EC1982A967006CCFF4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F13D05ED1982A967006CCFF4 /* Base */,
+				F186AD001BF9BBF600C119DD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F13D06021982A967006CCFF4 /* InfoPlist.strings */ = {
+		F186AD041BF9BBF600C119DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F13D06031982A967006CCFF4 /* en */,
+				F186AD051BF9BBF600C119DD /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F13D06071982A967006CCFF4 /* Debug */ = {
+		F186AD081BF9BBF600C119DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,30 +220,35 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		F13D06081982A967006CCFF4 /* Release */ = {
+		F186AD091BF9BBF600C119DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,118 +263,71 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F13D060A1982A967006CCFF4 /* Debug */ = {
+		F186AD0B1BF9BBF600C119DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PopAnimation/PopAnimation-Prefix.pch";
-				INFOPLIST_FILE = "PopAnimation/PopAnimation-Info.plist";
+				INFOPLIST_FILE = PopAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PopAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		F13D060B1982A967006CCFF4 /* Release */ = {
+		F186AD0C1BF9BBF600C119DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PopAnimation/PopAnimation-Prefix.pch";
-				INFOPLIST_FILE = "PopAnimation/PopAnimation-Info.plist";
+				INFOPLIST_FILE = PopAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PopAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		F13D060D1982A967006CCFF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopAnimation.app/PopAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PopAnimation/PopAnimation-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PopAnimationTests/PopAnimationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F13D060E1982A967006CCFF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopAnimation.app/PopAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PopAnimation/PopAnimation-Prefix.pch";
-				INFOPLIST_FILE = "PopAnimationTests/PopAnimationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F13D05D21982A967006CCFF4 /* Build configuration list for PBXProject "PopAnimation" */ = {
+		F186ACEE1BF9BBF600C119DD /* Build configuration list for PBXProject "PopAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F13D06071982A967006CCFF4 /* Debug */,
-				F13D06081982A967006CCFF4 /* Release */,
+				F186AD081BF9BBF600C119DD /* Debug */,
+				F186AD091BF9BBF600C119DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F13D06091982A967006CCFF4 /* Build configuration list for PBXNativeTarget "PopAnimation" */ = {
+		F186AD0A1BF9BBF600C119DD /* Build configuration list for PBXNativeTarget "PopAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F13D060A1982A967006CCFF4 /* Debug */,
-				F13D060B1982A967006CCFF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F13D060C1982A967006CCFF4 /* Build configuration list for PBXNativeTarget "PopAnimationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F13D060D1982A967006CCFF4 /* Debug */,
-				F13D060E1982A967006CCFF4 /* Release */,
+				F186AD0B1BF9BBF600C119DD /* Debug */,
+				F186AD0C1BF9BBF600C119DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F13D05CF1982A967006CCFF4 /* Project object */;
+	rootObject = F186ACEB1BF9BBF600C119DD /* Project object */;
 }
