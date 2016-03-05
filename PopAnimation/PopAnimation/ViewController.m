@@ -28,7 +28,8 @@
     [self.view addSubview:self.popView];
     
     [_popView showPopView];
-    
+
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=WIFI"]];
 }
 
 
